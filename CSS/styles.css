@@ -1,3 +1,16 @@
-.jumbotron {
-    background-image: linear-gradient(to bottom right, orange, yellow);
-}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url("https://raw.githubusercontent.com/johnny-tools/hillbillys/main/images/drizzle_ribs_ws.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .logomods {
+      fill: white;
+      color: white;
+      align-items: center;
+      width: 50%;
+  }
