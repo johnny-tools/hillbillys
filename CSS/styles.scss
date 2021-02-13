@@ -1,0 +1,26 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(/images/drizzle_ribs_ws_darker.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logomods {
+    width: 500px;
+}
+
+#formAlignment {
+    background-color: #C5C9B8;
+    width: 100%;
+    color: #333333;
+    height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    float: none;
+}

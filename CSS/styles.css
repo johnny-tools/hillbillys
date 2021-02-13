@@ -1,16 +1,123 @@
 
-.masthead {
-    height: 100vh;
-    min-height: 500px;
-    background-image: url("https://raw.githubusercontent.com/johnny-tools/hillbillys/main/images/drizzle_ribs_ws.jpg");
-    background-size: cover;
+
+
+.logomods {
+    width: 500px;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+    margin: auto;
+}
+
+#formAlignment {
+    background-color: #C5C9B8;
+    width: 100%;
+    color: #333333;
+    height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    float: none;
+}
+
+.hillbilly-icon {
+    width: 2em;
+    filter: invert(61%) sepia(90%) saturate(2381%) hue-rotate(340deg) brightness(101%) contrast(96%);
+    margin-left: 1em;
+}
+
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3, .catering-img {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url(/images/drizzle_ribs_ws_darker.jpg);
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("img_parallax2.jpg");
+    min-height: 400px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("img_parallax3.jpg");
+    min-height: 400px;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, catering-img {
+      background-attachment: scroll;
+    }
   }
 
-  .logomods {
-      fill: white;
-      color: white;
-      align-items: center;
-      width: 50%;
+  .formposition {
+    border: solid;
+    position: relative;
+    background-color: black;
+    opacity: 90%;
+    margin-top: 5%;
+  }
+
+  h1 {
+    font-family:'Cabin Condensed', sans-serif;
+    font-size: 75px;
+    position: relative;
+    padding: auto;
+    
+  }
+
+  .catering-img {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .catering-img {
+    background-image: url(/images/Catering.png);
+    min-height: 100%;
   }
